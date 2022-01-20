@@ -15,7 +15,7 @@
         </p>
         <p>
             <?
-            echo "This text is displayed using short PHP script delimiters."
+            echo "This text is displayed using short PHP script delimiters.";
             ?>
         </p>
     </body>
