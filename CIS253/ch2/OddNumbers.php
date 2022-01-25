@@ -6,15 +6,15 @@
     </head>
     <body>
         <?php
-            echo "<p> The odd numbers between 1 and 100 are",
+            echo "<p> The odd numbers between 1 and 100 are";
             $i=0;
             while ($i <= 100) {
                 if ($i % 2 != 0) {
-                    echo "$i,"
+                    echo "$i,";
                 }
-                $i++
+                $i++;
             }
-            echo "</p>"
+            echo "</p>";
         ?>
     </body>
 </html>

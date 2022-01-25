@@ -8,9 +8,9 @@
         <?php
             $GasPrice = 2.57;
             if ($GasPrice <= 2 && $GasPrice >= 3) {
-                echo "<p> Gas prices are between $2.00 and $3.00.</p>"
+                echo "<p> Gas prices are between $2.00 and $3.00.</p>";
             } else {
-                echo "<p>Gas Prices are not between $2.00 and $3.00</p>"
+                echo "<p>Gas Prices are not between $2.00 and $3.00</p>";
             }
         ?>
     </body>
