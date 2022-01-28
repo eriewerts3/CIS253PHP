@@ -1,0 +1,1 @@
+<img src="images/dragon.jpg" alt="dragon" height= "auto" width="100%">

@@ -1,0 +1,104 @@
+/*
+CIS 253 PHP
+Edward Riewerts
+*/
+
+/*
+Color palete
+#711210 (Red)
+#ffb569 (Red Orange)
+#d3541f (Dragon Orange)
+*/
+
+*	{box-sizing: border-box;
+} /*includes padding and border in the total width and height of div tag*/
+a {text-decoration: none;}
+
+body{
+    font-family: trajan-pro-3, serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+nav a{
+    float:left;
+    display: block;
+    color: #ffb569;
+    text-align: center;
+    padding: 40px 20px;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    font-size: 6em;
+    margin-bottom: 0%;
+}
+h3{
+    margin-top: 0%;
+}
+
+
+/* ID formatting */
+
+/* Container */
+
+
+/* Header */
+#header{
+    color:black;
+    text-align: center;
+    margin-bottom: 3%;
+    margin-right: 40%;
+}
+
+/* Nav */
+#nav{
+    overflow: hidden;
+    background-color: #711210;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}
+
+/* Text floating right */
+#textr{
+    padding-top: 3%;
+    float:right;
+    max-width: 65%;
+    min-height: 70%;
+}
+
+/* Photo floating left */
+#photol{
+    float:left;
+    max-width: 25%;
+    min-height: 70%;
+}
+
+/* Footer */
+#footer{
+    overflow: hidden;
+    background-color: #711210;
+    clear: both;
+    margin: auto;
+    display:block;
+    margin-bottom: 2%;
+}
+#footertext{
+	margin:auto;
+    float: left;
+    text-align: left;
+    color: #ffb569;
+    margin: auto;
+    padding-top: 1em;
+}
+
+/* Footer Image */
+#footerimg{
+	margin:auto;
+    float:right;
+    max-width: 20em;
+    padding-top: 1em;
+}
