@@ -11,14 +11,14 @@
             foreach ($CreditCard as $CardNumber) {
                 if (empty($CardNumber)) {
                     echo "<p>This Credit Card Number is invalid because it contains an empty string.</p>";
-                else
+				}else{
                     $CreditCardNumber = $CardNumber;
                     $CreditCardNumber = str_replace("-", "", $CreditCardNumber);
                     $CreditCardNumber = str_replace(" ", "", $CreditCardNumber);
                     if (!is_numeric($CreditCardNumber)) {
-                        echo "<p>Credit Card Number " . $CreditCardNumber . "is not a valid Credit Card number because it contains a non-numeric character. </p>";
-                    else
-                        echo "<p>Credit Card Number " . $CreditCardNumber . "is a valid Credit Card number.</p>";
+                        echo "<p>Credit Card Number " . $CreditCardNumber . " is not a valid Credit Card number because it contains a non-numeric character. </p>";
+					}else{
+                        echo "<p>Credit Card Number " . $CreditCardNumber . " is a valid Credit Card number.</p>";
                     }
                 }
             }

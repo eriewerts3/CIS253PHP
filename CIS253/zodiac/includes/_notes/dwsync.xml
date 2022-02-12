@@ -5,4 +5,7 @@
 <file name="inc_LPhoto.php" server="ftp.bsc.a2hosted.com/CIS253/" local="132878250936256176" remote="132878289000000000" Dst="1" />
 <file name="inc_nav.php" server="ftp.bsc.a2hosted.com/CIS253/" local="132878208495701353" remote="132878289000000000" Dst="1" />
 <file name="inc_text_content.php" server="ftp.bsc.a2hosted.com/CIS253/" local="132878209098858481" remote="132878289000000000" Dst="1" />
+<file name="inc_home.php" server="ftp.bsc.a2hosted.com/CIS253/" local="132891049562009598" remote="132891119400000000" Dst="1" />
+<file name="inc_home_links_bar.php" server="ftp.bsc.a2hosted.com/CIS253/" local="132891035831450000" remote="132891119400000000" Dst="1" />
+<file name="inc_php_info.php" server="ftp.bsc.a2hosted.com/CIS253/" local="132891073911215702" remote="132891119400000000" Dst="1" />
 </dwsync>

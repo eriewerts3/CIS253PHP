@@ -5,7 +5,7 @@
         <meta http-equiv= "content-type" content= "text/html; charset=iso-8859-1"/>
     </head>
     <body>
-    <h1>Perfect Palindrome</h1>
+    <h1>Standard Palindrome</h1>
         <?php
             function palindrom_checker($test_string){
                 
@@ -28,10 +28,10 @@
                     $pal.= $value;
                 }
                 //comparing equality
-                if ($lower == $pal)
-                    echo "<p>The string, " . $test_string . ", is a standard palindrom.";
-                else
-                echo "<p>The string, " . $test_string . ", is not a standard palindrom.";
+                if ($lower == $pal){
+                    echo '<p>The string, "' . $test_string . '", is a standard palindrom.';
+                }else{
+                echo '<p>The string, "' . $test_string . '", is not a standard palindrom.';
                 }
             }
             $a = "Madam, I'm Adam.";

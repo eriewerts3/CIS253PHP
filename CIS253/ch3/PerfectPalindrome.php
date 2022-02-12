@@ -10,18 +10,11 @@
             function palindrom_checker($test_string){
                 //reverse string
                 $rev = strrev($test_string);
-                //create empty string for flipped palindrom
-                $pal = "";
-
-                foreach ($rev as $value) {
-                    // reversing and concatinating to pal variable
-                    $pal.= $value;
-                }
                 //comparing equality
-                if ($test_string == $pal)
-                    echo "<p>The string, " . $test_string . ", is a perfect palindrom.";
-                else
-                    echo "<p>The string, " . $test_string . ", is not a perfect palindrom.";
+                if ($test_string == $rev){
+                    echo '<p>The string, "' . $test_string . '", is a perfect palindrom.';
+				}else{
+                    echo '<p>The string, "' . $test_string . '", is not a perfect palindrom.';
                 }
             }
             $a = "racecar";
@@ -29,6 +22,5 @@
             palindrom_checker($a);
             palindrom_checker($b);
         ?>
-        <a href="StandardPalindrom.php">Standard Palindrome</a>
     </body>
 </html>

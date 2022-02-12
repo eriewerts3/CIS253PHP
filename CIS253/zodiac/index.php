@@ -20,7 +20,7 @@
             </div>
             <div id="textr">
                 <?php
-                    include("includes/inc_text_content.php");
+                    include("includes/inc_home.php");
                 ?>
             </div>
             <div id="photol">
