@@ -20,7 +20,33 @@
             </div>
             <div id="textr">
                 <?php
-                    include("includes/inc_home.php");
+                    if (isset($_GET['page'])) {
+                        switch ($_GET['page']) {
+                            case 'site_layout':
+                                include('includes/inc_site_layout.php');
+                                break;
+                            case 'control_structures':
+                                include('includes/inc_control_structures.php');
+                                break;
+                            case 'string_functions':
+                                include('includes/inc_string_functions.php');
+                                break;
+                            case 'web_forms':
+                                include('includes/inc_web_forms.php');
+                                break;
+                            case 'state_information':
+                                include('includes/inc_state_information.php');
+                                break;
+                            case 'home_page'://A value of 'home_page' means to display the default page
+
+                            default:
+                                include('includes/inc_home.php');
+                                break;
+                        }
+                    }
+                    else {//If no nav link has been selected, then display the default page
+                        include('includes/inc_home.php');
+                    }
                 ?>
             </div>
             <div id="photol">

@@ -1,14 +1,18 @@
-<?php include("includes/inc_home_links_bar.php");?>
+<?php
+    if (isset($_GET['section'])) {
+        switch($_GET['section']) {
+            case 'zodiac':
+                include('includes/inc_chinese_zodiac.php');
+                break;
+            case 'php': //A value of 'php' means
+                        //to display the default page
+            
+            default:
+                include('includes/inc_php_info.php');
+                break;
+        }
 
-<p>Roughly one quarter of the world's population still holds the Chinese zodiac in high regard.  Some just as a cultural tradition and others time the births of their children in order to have good luck for their children and family. Regardless of whether or not one might choose to believe it.  The fact it is such a large part of the earth's culture makes it worth understanding to understand those who care alot about it.</p>
-
-<p>Like its western counterpart, the basis for your spirit animal is based on when you were born. However it is different in that the animal is dependent on the year you were born in a 12 year cycle rather than what month you were born.  Many use this for business, relationship compatibility, and judging first impressions.  Some even use the zodiac to politely ask how old you are based on the 12 year cycle.</p>
-
-<p>The story goes that a jade emperor was watching a race between animals. As they went across the river they all finished the race in their own unique way and showed the personality of the zodiac animal in the process.  The twelve Zodiac animals are Rat, Ox, Tiger, Rabbit, Dragon, Snake, Horse, Goat, Monkey, Rooster, Dog, and Pig.  The Animal with the most potential is the dragon and the animal with the least amount of luck is the goat/sheep.  Many parents don't want to have children during the year of the tiger to avoid the anger issues associated with the tiger. See more about the Chinese zodiac in the rest of our site.</p>
-
-<h4>References</h4>
-<ul style="list-style-type:disc;">
-    <li>MDIS(2020, January 23). Lunar New Year. MDIS Blog. <a href="https://www.mdis.edu.sg/blog/lunar-new-year/#:~:text=There%20are%2012%20zodiac%20signs,has%20its%20own%20unique%20characteristics.">https://www.mdis.edu.sg/blog/lunar-new-year/#:~:text=There%20are%2012%20zodiac%20signs,has%20its%20own%20unique%20characteristics.</a></li>
-
-    <li>TED. (2016). The Chinese zodiac, explained | ShaoLa [YouTube Video]. In YouTube. <a href="https://www.youtube.com/watch?v=Kxg0_EpOcWs&t=259s">https://www.youtube.com/watch?v=Kxg0_EpOcWs&t=259s</a></li>
-</ul>
+    } else {//If no section has been selected, then display the default page
+        include('includes/inc_php_info.php');
+    }
+?>

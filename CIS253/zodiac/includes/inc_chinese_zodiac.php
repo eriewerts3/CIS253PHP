@@ -1,3 +1,4 @@
+<?php include("includes/inc_home_links_bar.php");?>
 <p>Roughly one quarter of the world's population still holds the Chinese zodiac in high regard.  Some just as a cultural tradition and others time the births of their children in order to have good luck for their children and family. Regardless of whether or not one might choose to believe it.  The fact it is such a large part of the earth's culture makes it worth understanding to understand those who care alot about it. </p>
 
 <p>Like its western counterpart, the basis for your spirit animal is based on when you were born. However it is different in that the animal is dependent on the year you were born in a 12 year cycle rather than what month you were born.  Many use this for business, relationship compatibility, and judging first impressions.  Some even use the zodiac to politely ask how old you are based on the 12 year cycle.</p>

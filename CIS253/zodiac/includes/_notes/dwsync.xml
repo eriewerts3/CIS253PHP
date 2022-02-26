@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <dwsync>
 <file name="inc_header.php" server="ftp.bsc.a2hosted.com/CIS253/" local="132878208047986729" remote="132878289000000000" Dst="1" />
-<file name="inc_footer.php" server="ftp.bsc.a2hosted.com/CIS253/" local="132878251843567698" remote="132878289000000000" Dst="1" />
+<file name="inc_footer.php" server="ftp.bsc.a2hosted.com/CIS253/" local="132903193781179081" remote="132903273000000000" Dst="1" />
 <file name="inc_LPhoto.php" server="ftp.bsc.a2hosted.com/CIS253/" local="132878250936256176" remote="132878289000000000" Dst="1" />
-<file name="inc_nav.php" server="ftp.bsc.a2hosted.com/CIS253/" local="132878208495701353" remote="132878289000000000" Dst="1" />
-<file name="inc_text_content.php" server="ftp.bsc.a2hosted.com/CIS253/" local="132878209098858481" remote="132878289000000000" Dst="1" />
-<file name="inc_home.php" server="ftp.bsc.a2hosted.com/CIS253/" local="132891049562009598" remote="132891119400000000" Dst="1" />
-<file name="inc_home_links_bar.php" server="ftp.bsc.a2hosted.com/CIS253/" local="132891035831450000" remote="132891119400000000" Dst="1" />
+<file name="inc_nav.php" server="ftp.bsc.a2hosted.com/CIS253/" local="132903208168028091" remote="132903273000000000" Dst="1" />
+<file name="inc_home.php" server="ftp.bsc.a2hosted.com/CIS253/" local="132903247565514163" remote="132903286800000000" Dst="1" />
+<file name="inc_home_links_bar.php" server="ftp.bsc.a2hosted.com/CIS253/" local="132903198290677491" remote="132903273000000000" Dst="1" />
 <file name="inc_php_info.php" server="ftp.bsc.a2hosted.com/CIS253/" local="132891073911215702" remote="132891119400000000" Dst="1" />
+<file name="inc_chinese_zodiac.php" server="ftp.bsc.a2hosted.com/CIS253/" local="132903221627567369" remote="132903273000000000" Dst="1" />
+<file name="inc_control_structures.php" server="ftp.bsc.a2hosted.com/CIS253/" local="132903189398687443" remote="132903273000000000" Dst="1" />
+<file name="inc_site_layout.php" server="ftp.bsc.a2hosted.com/CIS253/" local="132903189227798398" remote="132903273000000000" Dst="1" />
+<file name="inc_state_information.php" server="ftp.bsc.a2hosted.com/CIS253/" local="132903190443192916" remote="132903273000000000" Dst="1" />
+<file name="inc_string_functions.php" server="ftp.bsc.a2hosted.com/CIS253/" local="132903189750658801" remote="132903273000000000" Dst="1" />
+<file name="inc_web_forms.php" server="ftp.bsc.a2hosted.com/CIS253/" local="132903190080509616" remote="132903273000000000" Dst="1" />
 </dwsync>
